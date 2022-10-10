@@ -8,7 +8,7 @@ for i in range(5):
     names.append(name)
 
 # Sort list
-sorted(names)
+names.sort()
 
 # Get shortest and longest string
 shortest = min(names, key = len)
