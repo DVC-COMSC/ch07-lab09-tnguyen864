@@ -2,8 +2,9 @@
 names = []
 
 # Get 5 names
+print("Enter 5 names: ")
 for i in range(5):
-    name = input("Enter a name: ")
+    name = input()
     names.append(name)
 
 # Sort list
