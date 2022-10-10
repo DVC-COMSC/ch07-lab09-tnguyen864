@@ -14,5 +14,4 @@ shortest = min(names, key = len)
 longest = max(names, key = len)
 
 # Print shortest and longest string
-print("Shortest:", shortest)
-print("Longest:", longest)
+print(shortest, longest)
